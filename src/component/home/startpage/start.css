@@ -1,4 +1,16 @@
 .start {
-    margin-top: 50px;
-    gap: 20px;
+    width: 90%;
+    margin-top: 20px;
+    padding-top: 30px;
+    gap: 50px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+}
+
+@media screen and (width:760px) {
+    .d_flex {
+        display: flex;
+        flex-direction: column;
+    }
 }

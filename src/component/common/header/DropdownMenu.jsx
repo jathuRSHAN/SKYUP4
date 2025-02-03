@@ -22,7 +22,7 @@ const DropdownMenu = () => {
             </button>
             {isOpen && (
                 <ul className="dropdown-menu">
-                    <li onClick={() => handleOptionClick("cources")}>coerces</li>
+                    <li onClick={() => handleOptionClick("cources")}>cources</li>
                     <li onClick={() => handleOptionClick("platform")}>platform</li>
                     <li onClick={() => handleOptionClick("tools")}>tools</li>
                 </ul>

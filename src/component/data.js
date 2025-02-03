@@ -4,7 +4,7 @@ export const menu = [{
 },
 {
     text: "team",
-    url: "./"
+    url: "./team"
 },
 {
     text: "career",

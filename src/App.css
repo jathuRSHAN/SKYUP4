@@ -13,7 +13,7 @@ body {
 
 :root {
   --primary-color: blue;
-  --secondary-color: green;
+  --secondary-color: rgb(234, 208, 140);
   --font-color: rgb(0, 0, 0);
   --bg-color: #ffff;
   --heading-color: rgb(255, 243, 112);
@@ -21,7 +21,7 @@ body {
 
 [data-theme="dark"] {
   --primary-color: blue;
-  --secondary-color: green;
+  --secondary-color: rgb(234, 208, 140);
   --font-color: rgb(255, 255, 255);
   --bg-color: #000000;
   --heading-color: rgb(255, 243, 112);
@@ -69,4 +69,20 @@ a {
 
 li {
   list-style-type: none;
+}
+
+button {
+  padding: 10px 10px;
+  color: var(--font-color);
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+button :hover {
+  box-shadow: none;
 }

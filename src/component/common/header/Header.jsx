@@ -18,12 +18,14 @@ export default function Header() {
                 <div className="container">
                     <nav className={clik ? "mobleview" : "d_flexsb container"}>
                         <div className="left d_flex">
+                            <div className="menubutton"><button onClick={toggleMenu}><i class="fa-solid fa-bars"></i></button></div>
                             <div className="logo"><h1>SKY<span>UP</span></h1></div>
                             {/* <div className="log"><img src="./logo/logo.png" alt="" /></div> */}
                             <div className="dropdown"><DropdownMenu /></div>
                         </div>
                         <div className="center"><SearchComponent data={sampleData} /></div>
                         <div className="right d_flex">
+
                             <div className="navbar d_flex">
                                 {
                                     menu.map((item, i) => (
@@ -37,11 +39,11 @@ export default function Header() {
                                 }
                             </div>
                             <div className="button d_flex">
-                                <div className="team"><DarkMode /></div>
-                                <button className="lonin"><Link to="/login">Login</Link></button>
-                                <button className="signin"><Link to="/Signup">Signup</Link></button>
+                                <div className="theme"><DarkMode /></div>
+                                <button className="lonin"><a href="/login">login</a></button>
+                                <button className="signin"><Link to="./Signup">Signup</Link></button>
                             </div>
-                            <div className="menubutton"><button onClick={toggleMenu}><i class="fa-solid fa-bars"></i></button></div>
+
                         </div>
 
                     </nav>

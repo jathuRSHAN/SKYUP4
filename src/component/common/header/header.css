@@ -60,6 +60,10 @@ nav .right ul li a:hover {
     color: #007bff;
 }
 
+nav .menubutton {
+    display: none;
+}
+
 /* -------DropdownMenu--------------- */
 /* Dropdown container */
 .dropdown {
@@ -225,8 +229,80 @@ nav .right ul li a:hover {
 
 
 @media screen and (max-width:760px) {
-    nav .right .menubutton {
+    nav .left .menubutton {
         display: block;
     }
 
+    nav .right .navbar,
+    nav .right .button,
+    nav .left .dropdown {
+        display: none;
+    }
+
+
+    .mobleview .center {
+        display: none;
+    }
+
+
+    .mobleview {
+        transition: 0.4s;
+        position: absolute;
+        z-index: 1;
+        background-color: var(--secondary-color);
+        height: 70vh;
+        width: 100%;
+    }
+
+    .mobleview .left {
+
+        padding-left: 50px;
+
+
+    }
+
+    .mobleview .left .menubutton {
+        position: absolute;
+        right: 0;
+        top: 5px;
+
+
+    }
+
+    .mobleview .left .dropdown {
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 25px;
+        margin-left: 25px;
+        z-index: 1;
+
+    }
+
+    .mobleview .right .navbar {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        padding: 30px;
+        gap: 30px;
+        left: 30px;
+        top: 100px;
+    }
+
+    .mobleview .right .button {
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 200px;
+        padding: 100px 0 0 30px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .mobleview .right .button .theme {
+        position: absolute;
+        right: -100px;
+    }
 }

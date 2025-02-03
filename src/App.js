@@ -10,6 +10,7 @@ import Header from './component/common/header/Header';
 import Login from './component/common/header/Login';
 import Signup from './component/common/header/Signup';
 import Home from './component/home/Home';
+import Team from './component/pages/team/Team';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/login" exact component={Login} />
           <Route path="/signup" exact component={Signup} />
+          <Route path="/team" exact component={Team} />
           {/* <Route path="/faq" exact component={Faq} /> */}
         </Switch>
 
