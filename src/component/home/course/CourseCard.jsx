@@ -36,7 +36,8 @@ const CourseCard = () => {
                                 {val.priceAll} / {val.pricePer}
                             </h3>
                         </div> */}
-                        <button className='outline-btn'>ENROLL NOW !</button>
+                        <div><a href="https://forms.gle/wwGhRfw3ziSAcYUh6"><button className='outline-btn'> ENROLL NOW !</button></a></div>
+
                     </div>
                 </div>
             ))}

@@ -6,7 +6,7 @@ export default function Hero() {
         <><div className="hero d_flex">
             <div className="left">
                 <div className="logo">
-                    <img src="./hero.png" alt="" />
+                    <a href="https://forms.gle/wwGhRfw3ziSAcYUh6"><img src="./hero.png" alt="" /></a>
                 </div>
             </div>
             <div className="right">

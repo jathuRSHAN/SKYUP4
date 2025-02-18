@@ -19,7 +19,7 @@ export default function Header() {
                     <nav className={clik ? "mobleview d_flexsb" : "d_flexsb container"}>
                         <div className="left d_flex">
                             <div className="menubutton"><button onClick={toggleMenu}><i class="fa-solid fa-bars"></i></button></div>
-                            <div className="logo"><h1>SKY<span>UP</span></h1></div>
+                            <div className="logo"><a href='./'><h1>SKY<span>UP</span></h1></a></div>
                             {/* <div className="log"><img src="./logo/logo.png" alt="" /></div> */}
                             <div className="dropdown"><DropdownMenu /></div>
                         </div>
@@ -40,8 +40,10 @@ export default function Header() {
                             </div>
                             <div className="button d_flex">
                                 <div className="theme"><DarkMode /></div>
-                                <button className="lonin"><a href="/login">login</a></button>
-                                <button className="signin"><Link to="./Signup">Signup</Link></button>
+                                <button className="lonin"><a href="">login</a></button>
+                                <button className="signin"><Link to="">Signup</Link></button>
+                                {/* <button className="lonin"><a href="/login">login</a></button>
+                                <button className="signin"><Link to="./Signup">Signup</Link></button> */}
                             </div>
 
                         </div>

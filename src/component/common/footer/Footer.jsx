@@ -58,15 +58,15 @@ const Footer = () => {
                         <ul>
                             <li>
                                 <i className='fa fa-map'></i>
-                                no- 333.address for , trincomalee, srilanka
+                                No- 331, Trincomalee, Srilanka
                             </li>
                             <li>
                                 <i className='fa fa-phone-alt'></i>
-                                +94 77 123 4567
+                                +94 76 000 7822
                             </li>
                             <li>
                                 <i className='fa fa-paper-plane'></i>
-                                info@yourdomain.com
+                                skyup.official01@gmail.com
                             </li>
                         </ul>
                     </div>

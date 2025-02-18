@@ -20,19 +20,19 @@ export const menu = [{
 export const social = [
     {
         icon: <i className='fab fa-facebook-f icon'></i>,
-        url: "https://web.facebook.com/sownthararsa.jathu"
+        url: "https://web.facebook.com/profile.php?id=61570260677341&_rdc=1&_rdr#"
     },
     {
         icon: <i className='fab fa-instagram icon'></i>,
-        url: ""
+        url: "https://www.instagram.com/skyup_official/"
     },
     {
-        icon: <i className='fab fa-twitter icon'></i>,
-        url: ""
+        icon: <i className='fab fa-tiktok icon'></i>,
+        url: "https://www.tiktok.com/@skyup.official01"
     },
     {
         icon: <i className='fab fa-youtube icon'></i>,
-        url: ""
+        url: "https://www.youtube.com/@Skyup-official-01"
     },
 
 ]
@@ -113,56 +113,7 @@ export const coursesCard = [
         priceAll: "$200 All Course",
         pricePer: "$25 per month",
         available: true
-    },
-    // {
-    //     id: 4,
-    //     cover: "../images/back.webp",
-    //     courTeacher: [
-    //         {
-    //             dcover: "./images/back.webp",
-    //             name: "by John Smith",
-    //             totalTime: "50 lectures (190 hrs)",
-    //         },
-    //     ],
-    //     coursesName: "Introducing to Software Engineering",
-    //     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    //     priceAll: "$100 All Course",
-    //     pricePer: "$15 per month",
-    //     available: false
-    // },
-    // {
-    //     id: 5,
-    //     cover: "../images/back.webp",
-    //     courTeacher: [
-    //         {
-    //             dcover: "./images/back.webp",
-    //             name: "by Ram Gurung",
-    //             totalTime: "30 lectures (125 hrs)",
-    //         },
-    //     ],
-    //     coursesName: "Enhancing Adobe Photoshop",
-    //     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    //     priceAll: "$200 All Course",
-    //     pricePer: "$25 per month",
-    //     available: false
-    // },
-    // {
-    //     id: 6,
-    //     cover: "../images/back.webp",
-    //     courTeacher: [
-    //         {
-    //             dcover: "./images/back.webp",
-    //             name: "by Saroj Nepal",
-    //             totalTime: "50 lectures (50 hrs)",
-    //         },
-    //     ],
-    //     coursesName: "HTML, CSS, and Javascript ",
-    //     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    //     priceAll: "$50 All Course",
-    //     pricePer: "$5 per month",
-    //     available: false
-    // },
-
+    }
 ]
 
 export const services = [
@@ -187,23 +138,23 @@ export const services = [
 export const testimonal = [
     {
         id: 1,
-        name: "ROGER SCOTT",
-        post: "MARKETING MANAGER",
-        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        cover: "./images/sanju.png",
+        name: "THARUMI",
+        post: "FREELANCER ",
+        desc: "Thanks to this course, I have built a strong Fiverr profile and started earning online. The lessons were well-structured, and the practical approach made a big difference.",
+        cover: "./images/tharu.png",
     },
     {
         id: 2,
-        name: "ROGER SCOTT",
-        post: "MARKETING MANAGER",
-        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        cover: "./images/sanju.png",
+        name: "THUVARAGAN",
+        post: "FREELANCER GRAPHIC DESIGNER",
+        desc: "Highly recommend this course to anyone serious about making money online. The strategies work, and the support from the Skyup team is amazing!",
+        cover: "./images/thuva.png",
     },
     {
         id: 3,
-        name: "ROGER SCOTT",
-        post: "MARKETING MANAGER",
-        desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        cover: "./images/sanju.png",
+        name: "PIRIYANKAN",
+        post: "FREELANCER WEB SITE DESINGER",
+        desc: "Learning from Skyup was the best decision! The course not only taught me Fiverr skills but also boosted my confidence in freelancing.",
+        cover: "./images/piri.png",
     },
 ]
