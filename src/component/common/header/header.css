@@ -17,17 +17,19 @@ nav img {
 }
 
 nav .right {
-    gap: 20px;
+    gap: 50px;
     /* background-color: azure; */
 
 }
 
 nav .right ul {
     margin-right: 15px;
+    margin-left: 40px;
 }
 
 nav .button {
-    gap: 10px;
+    gap: 30px;
+
 }
 
 nav .right .menubutton {
@@ -36,14 +38,14 @@ nav .right .menubutton {
 
 
 nav .right ul li a {
-    /* color: black; */
+    color: var(--font-color);
     font-weight: 500;
     font-size: 19px;
     transition: 0.5s;
 }
 
 nav .right ul li a:hover {
-    color: aqua;
+    color: rgb(78, 249, 132);
 }
 
 .logo {
@@ -69,7 +71,7 @@ nav .menubutton {
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 200px;
+    width: 210px;
     font-family: Arial, sans-serif;
 }
 
@@ -85,6 +87,7 @@ nav .menubutton {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: black;
 }
 
 /* Arrow icon */
@@ -107,6 +110,7 @@ nav .menubutton {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    color: black;
 }
 
 /* Dropdown menu item */
@@ -181,6 +185,25 @@ nav .menubutton {
 }
 
 /* ------------login----------- */
+
+
+
+.button .signin a {
+    color: black;
+}
+
+.button .lonin a {
+    color: black;
+}
+
+.button .signin a:hover {
+    color: rgb(96, 251, 117);
+}
+
+.button .lonin a:hover {
+    color: rgb(96, 251, 117);
+}
+
 /* Container styling for both forms */
 .auth-container {
     width: 300px;
@@ -304,5 +327,11 @@ nav .menubutton {
     .mobleview .right .button .theme {
         position: absolute;
         right: -100px;
+    }
+
+    .mobleview .logo {
+        position: absolute;
+        top: 5px;
+        left: 5%;
     }
 }

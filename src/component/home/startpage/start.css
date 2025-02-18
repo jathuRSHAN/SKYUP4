@@ -14,9 +14,17 @@
     object-fit: cover;
 }
 
-@media screen and (width:760px) {
-    .d_flex {
-        display: flex;
-        flex-direction: column;
+img .mobile {
+    display: none;
+}
+
+.start .images {
+    display: none;
+}
+
+
+@media screen and (max-width:760px) {
+    .start .images {
+        display: block;
     }
 }

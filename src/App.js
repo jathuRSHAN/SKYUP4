@@ -11,6 +11,7 @@ import Login from './component/common/header/Login';
 import Signup from './component/common/header/Signup';
 import Home from './component/home/Home';
 import Team from './component/pages/team/Team';
+import Footer from './component/common/footer/Footer';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <Route path="/team" exact component={Team} />
           {/* <Route path="/faq" exact component={Faq} /> */}
         </Switch>
-
+        <Footer />
       </Router>
 
     </>

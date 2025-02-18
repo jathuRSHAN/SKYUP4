@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const DropdownMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const [selectedOption, setSelectedOption] = useState("growth & freelance");
+    const [selectedOption, setSelectedOption] = useState("Growth & Freelance");
 
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
@@ -22,9 +22,9 @@ const DropdownMenu = () => {
             </button>
             {isOpen && (
                 <ul className="dropdown-menu">
-                    <li onClick={() => handleOptionClick("cources")}>cources</li>
-                    <li onClick={() => handleOptionClick("platform")}>platform</li>
-                    <li onClick={() => handleOptionClick("tools")}>tools</li>
+                    <li onClick={() => handleOptionClick("cources")}>Courses</li>
+                    <li onClick={() => handleOptionClick("platform")}>Platform</li>
+                    <li onClick={() => handleOptionClick("tools")}>Tools</li>
                 </ul>
             )}
         </div>
