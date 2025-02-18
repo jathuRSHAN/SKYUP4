@@ -68,3 +68,28 @@
   background-color: #fff;
   color: #22c276;
 }
+
+@media screen and (max-width:768px) {
+  .testimonal {
+
+    padding-top: 20px;
+
+  }
+
+  .testimonal h1 {
+    padding-left: 0;
+
+  }
+
+
+  .testimonal .grid2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .testimonal {
+    height: auto;
+    margin-top: 10px;
+    /* background-color: #dffcfa; */
+  }
+}
