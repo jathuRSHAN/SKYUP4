@@ -133,7 +133,7 @@ export const services = [
         id: 3,
         cover: "https://img.icons8.com/ios/80/000000/athlete.png",
         title: "Learn with Expert",
-        desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+        desc: "Get guidance from industry professionals and experienced instructors",
     },]
 export const testimonal = [
     {

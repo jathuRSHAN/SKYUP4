@@ -184,6 +184,10 @@ button :hover {
 
 }
 
+.services p {
+  text-align: justify;
+}
+
 
 @media screen and (max-width:768px) {
 
