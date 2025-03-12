@@ -1,7 +1,13 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 /* Upper Banner */
 .banner {
   width: 100%;
-  height: 250px;
+  height: 100vh;
   background: url('/images/ban.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
@@ -37,7 +43,7 @@
   justify-content: center;
   align-items: center;
   padding: 50px 20px;
-  background-color: #f5f5f5;
+  background-color: white;
 }
 
 .team-grid {
@@ -96,22 +102,22 @@
 }
 
 .icon {
-  font-size: 2.4rem !important;
+  font-size: 2.4rem !important; /* Slightly smaller icon size */
   color: white;
   background: black;
-  padding: 14px; 
+  padding: 14px; /* Adjusted padding */
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 55px; 
-  height: 55px; 
+  width: 55px; /* Adjusted width */
+  height: 55px; /* Adjusted height */
   transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .icon:hover {
   background: #1eb2a6;
-  transform: scale(1.15); 
+  transform: scale(1.15); /* Slightly reduced hover effect */
 }
 
 /* Team Info */
