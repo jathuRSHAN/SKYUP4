@@ -11,8 +11,8 @@ export const menu = [{
     url: "./"
 },
 {
-    text: "Contact As",
-    url: "./"
+    text: "Contact Us",
+    url: "./contactus"
 },
 ]
 

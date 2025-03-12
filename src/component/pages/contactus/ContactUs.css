@@ -1,0 +1,159 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Upper Banner */
+.banner {
+    width: 100%;
+    height: 100vh; 
+    background: url('/images/ban.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Banner Text */
+.banner-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text h1 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.banner-text h2 {
+    font-size: 3rem;
+    margin-top: 5px;
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .contact-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 50px;
+  }
+  
+  /* Map Section */
+  .contact-map {
+    width: 50%;
+    height: 100%;
+  }
+  
+  /* Contact Form Section */
+  .contact-form {
+    width: 50%;
+    padding: 50px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .contact-form h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+  }
+  
+  .contact-info p strong {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .contact-details {
+    flex: 1;
+    padding-right: 20px;
+  }
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-row input {
+    flex: 1;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #218838;
+  }
+  
+  /* Social Links */
+  .contact-social {
+    margin-top: 20px;
+  }
+  
+  .contact-social a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .contact-social a:hover {
+    text-decoration: underline;
+  }
+  
