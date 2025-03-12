@@ -40,8 +40,8 @@ export default function Header() {
                             </div>
                             <div className="button d_flex">
                                 <div className="theme"><DarkMode /></div>
-                                <button className="lonin"><a href="">login</a></button>
-                                <button className="signin"><Link to="">Signup</Link></button>
+                                <button className="lonin"><Link to="/login">Login</Link></button>
+                                <button className="signin"><Link to="/signup">Signup</Link></button>
                                 {/* <button className="lonin"><a href="/login">login</a></button>
                                 <button className="signin"><Link to="./Signup">Signup</Link></button> */}
                             </div>

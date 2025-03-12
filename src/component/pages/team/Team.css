@@ -86,7 +86,8 @@
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  gap: 18px; /* Adjusted spacing between icons */
+  gap: 18px;
+  /* Adjusted spacing between icons */
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
@@ -99,19 +100,19 @@
   font-size: 2.4rem !important;
   color: white;
   background: black;
-  padding: 14px; 
+  padding: 14px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 55px; 
-  height: 55px; 
+  width: 55px;
+  height: 55px;
   transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .icon:hover {
   background: #1eb2a6;
-  transform: scale(1.15); 
+  transform: scale(1.15);
 }
 
 /* Team Info */
