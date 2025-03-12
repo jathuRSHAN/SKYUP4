@@ -12,8 +12,9 @@ import Header from './component/common/header/Header';
 import Home from './component/home/Home';
 import Team from './component/pages/team/Team';
 import Footer from './component/common/footer/Footer';
-import LoginPage from './component/pages/Login/LoginPage';
-import RegisterPage from './component/pages/Register/RegisterPage';
+import ContactUs from './component/pages/contactus/ContactUs';
+// import LoginPage from './component/pages/Login/LoginPage';
+// import RegisterPage from './component/pages/Register/RegisterPage';
 
 function App() {
   return (
@@ -22,9 +23,10 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/login" exact component={LoginPage} />
-          <Route path="/signup" exact component={RegisterPage} />
+          {/* <Route path="/login" exact component={LoginPage} />
+          <Route path="/signup" exact component={RegisterPage} /> */}
           <Route path="/team" exact component={Team} />
+          <Route path="/contactus" exact component={ContactUs} />
           {/* <Route path="/faq" exact component={Faq} /> */}
         </Switch>
         <Footer />
