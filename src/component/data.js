@@ -8,7 +8,7 @@ export const menu = [{
 },
 {
     text: "Career",
-    url: "./"
+    url: "./career"
 },
 {
     text: "Contact Us",
