@@ -2,7 +2,7 @@
 import './App.css';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   //Link
 } from "react-router-dom";
@@ -22,17 +22,25 @@ function App() {
     <>
       <Router>
         <Header />
-        <Switch>
+        {/* <Routes>
           <Route path="/" exact component={Home} />
           <Route path="/login" exact component={Login} />
           <Route path="/signup" exact component={Signup} />
           <Route path="/team" exact component={Team} />
           <Route path="/contactus" exact component={ContactUs} />
           <Route path="/career" exact component={Career} />
-          {/* <Route path="/faq" exact component={Faq} /> */}
-        </Switch>
+          {/* <Route path="/faq" exact component={Faq} /> 
+      </Routes> */}
+
+        <Routes>  {/* ✅ Use Routes instead of Switch */}
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/career" element={<Career />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/team" element={<Team />} />
+        </Routes>
         <Footer />
-      </Router>
+      </Router >
 
     </>
   );
