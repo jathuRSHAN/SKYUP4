@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const DropdownMenu = () => {
@@ -22,9 +23,9 @@ const DropdownMenu = () => {
             </button>
             {isOpen && (
                 <ul className="dropdown-menu">
-                    <li onClick={() => handleOptionClick("cources")}>Courses</li>
-                    <li onClick={() => handleOptionClick("platform")}>Platform</li>
-                    <li onClick={() => handleOptionClick("tools")}>Tools</li>
+                    <Link to="course"><li onClick={() => handleOptionClick("cources")}>Courses</li></Link>
+                    <Link to=""><li onClick={() => handleOptionClick("platform")}>Platform</li></Link>
+                    <Link to=""><li onClick={() => handleOptionClick("tools")}>Tools</li></Link>
                 </ul>
             )}
         </div>

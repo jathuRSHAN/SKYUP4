@@ -24,6 +24,7 @@ export default function Header() {
 
     const [user, setUser] = useState({ name: "", email: "", localId: "" })
     useEffect(() => {
+
         if (isAuthenticated()) {
             UserDetailsApi().then((response) => {
 
@@ -34,9 +35,16 @@ export default function Header() {
                 })
             })
         }
-    }, [])
+
+
+    }, []);
+
+
+
+
 
     return (
+
         <>
             <header >
                 <div className="container">
