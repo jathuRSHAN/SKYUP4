@@ -13,7 +13,7 @@ body {
 
 :root {
   --primary-color: blue;
-  --secondary-color: rgb(242, 238, 227);
+  --secondary-color: rgb(255, 234, 176);
   --font-color: rgb(0, 0, 0);
   --bg-color: #ffff;
   --heading-color: rgb(255, 243, 112);
@@ -73,7 +73,7 @@ li {
 
 button {
   padding: 10px 10px;
-  color: var(--font-color);
+  color: black;
   font-size: 15px;
   font-weight: 600;
   border: none;

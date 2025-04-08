@@ -54,6 +54,7 @@ nav .right ul li a:hover {
 
 .logo h1 {
     font-size: 32px;
+    color: var(--font-color)
 }
 
 .logo h1 span {
@@ -201,6 +202,14 @@ nav .menubutton {
 }
 
 .button .lonin a:hover {
+    color: rgb(96, 251, 117);
+}
+
+.button .logout {
+    color: black;
+}
+
+.button .logout a:hover {
     color: rgb(96, 251, 117);
 }
 

@@ -116,6 +116,60 @@ export const coursesCard = [
     }
 ]
 
+
+
+export const buycoursesCard = [
+    {
+        id: 1,
+        cover: "../images/fluter.jpeg",
+        courTeacher: [
+            {
+                dcover: "./images/dino.jpeg",
+                name: "BY Dino",
+                totalTime: "ONE MONTH",
+            },
+        ],
+        coursesName: "Fundamentals of Mobile App Development Using Flutter in Tamil",
+        desc: " “Fundamentals of Mobile App Development Using Flutter in Tamil”, brought to you by SkyUp (PVT) LTD. Designed specifically for Tamil-speaking students and aspiring developers, this course provides a solid foundation in building cross-platform mobile applications using Flutter.",
+        priceAll: "$100 All Course",
+        pricePer: "$15 per month",
+        available: true,
+        url: "https://payhip.com/b/oDtdY"
+    },
+    {
+        id: 2,
+        cover: "../images/Dmarketing.jpeg",
+        courTeacher: [
+            {
+                dcover: "./images/jathu.png",
+                name: "BY JATHU",
+                totalTime: "ONE MONTHS",
+            },
+        ],
+        coursesName: " Digital Marketing",
+        desc: "Learn how to register a domain, choose hosting, and set up WordPress for a smooth website launch. Customize your site with themes, plugins, page builders, and responsive design for better performance. Integrate analytics, manage backups, and ensure security for long-term success.",
+        priceAll: "$200 All Course",
+        pricePer: "$25 per month",
+        available: true
+    },
+    {
+        id: 3,
+        cover: "../images/Gdesign.jpeg",
+        courTeacher: [
+            {
+                dcover: "./images/sanju.png",
+                name: "BY SANJU",
+                totalTime: "ONE MONTHS",
+            },
+        ],
+        coursesName: " Graphic Design",
+        desc: "Learn the fundamentals of design, including typography, color theory, and composition. Use essential tools like Photoshop and Illustrator to create designs, develop creative solutions, and refine projects based on feedback.",
+        priceAll: "$200 All Course",
+        pricePer: "$25 per month",
+        available: true
+    }
+]
+
 export const services = [
     {
         id: 1,
