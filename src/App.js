@@ -1,7 +1,7 @@
 
 import './App.css';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Routes,
   Route,
 
@@ -22,21 +22,22 @@ function App() {
 
   return (
     <>
-      <Router>
+      < BrowserRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<RegisterPage />} />
           <Route path="/course" element={<Course />} />
+          <Route path="/team" element={<Team />} />
           {/* <Route path="/" exact component={Home} />
           <Route path="/login" exact component={LoginPage} />
           <Route path="/signup" exact component={RegisterPage} />
-          <Route path="/team" exact component={Team} /> */}
+           */}
           {/* <Route path="/faq" exact component={Faq} /> */}
         </Routes>
         <Footer />
-      </Router>
+      </ BrowserRouter>
 
     </>
   );

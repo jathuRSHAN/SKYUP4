@@ -124,7 +124,7 @@ export const buycoursesCard = [
         cover: "../images/fluter.jpeg",
         courTeacher: [
             {
-                dcover: "./images/dino.jpeg",
+                dcover: "./images/dino.png",
                 name: "BY Dino",
                 totalTime: "ONE MONTH",
             },
