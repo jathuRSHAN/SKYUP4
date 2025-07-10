@@ -8,7 +8,7 @@ export const Services = () => {
         <>
             <section className='services'>
                 <div className='container'>
-                    <h1>Benefits About Online Learning</h1>
+                    <h1>Why Choose Skyup Campus</h1>
                     <div className='content grid3'>
                         {services.map((item) => (
                             <div className='box'>
@@ -16,7 +16,15 @@ export const Services = () => {
                                     <img src={item.cover} alt='' />
                                 </div>
                                 <h3>{item.title}</h3>
-                                <p>{item.desc}</p>
+                                <p>
+                                    {item.desc.split('\n').map((line, idx) => (
+                                        <span key={idx}>
+                                            {line}
+                                            <br />
+                                        </span>
+                                    ))}
+                                </p>
+
                             </div>
                         ))}
                     </div>

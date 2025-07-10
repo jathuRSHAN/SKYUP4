@@ -15,6 +15,7 @@ export const Counter = () => {
                             <i>{item.icon}</i>
                             <h1 className='heading'>
                                 <CountUp enableScrollSpy duration={2} end={item.num} />
+                                +
                             </h1>
                             <h3>{item.title}</h3>
                         </div>

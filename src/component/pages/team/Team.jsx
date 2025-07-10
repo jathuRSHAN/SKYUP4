@@ -16,13 +16,13 @@ const teamMembers = [
 export default function Team() {
     return (
         <>
-            {/* Upper Banner */}
+            {/* Upper Banner
             <div className="banner">
                 <div className="banner-text">
                     <h1>HOME / TEAM</h1>
                     <h2>Team</h2>
                 </div>
-            </div>
+            </div> */}
 
             {/* Team Section */}
             <section className="team-container">

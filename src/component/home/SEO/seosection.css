@@ -1,0 +1,18 @@
+.seo-snippet {
+    padding: 2rem 1rem;
+    background-color: #f1f5f9;
+    font-size: 1rem;
+    color: #1e293b;
+    text-align: center;
+    line-height: 1.6;
+    border-top: 1px solid #e2e8f0;
+}
+
+.seo-snippet p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.seo-snippet strong {
+    font-weight: 600;
+}

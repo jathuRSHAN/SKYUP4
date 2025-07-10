@@ -16,6 +16,10 @@ import Footer from './component/common/footer/Footer';
 import LoginPage from './component/pages/Login/LoginPage';
 import RegisterPage from './component/pages/Register/RegisterPage';
 import Course from './component/pages/Courses/Course';
+import Career from './component/pages/career/Career';
+import AboutUs from './component/pages/AboutUs/AboutUs';
+import ContactUs from './component/pages/contactus/ContactUs';
+import Blog from './component/pages/blog/Blog';
 
 
 function App() {
@@ -30,6 +34,10 @@ function App() {
           <Route path="/signup" element={<RegisterPage />} />
           <Route path="/course" element={<Course />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/career" element={<Career />} />
+          <Route path="/aboutUs" element={<AboutUs />} />
+          <Route path="/contactUs" element={<ContactUs />} />
+          <Route path="/blog" element={<Blog />} />
           {/* <Route path="/" exact component={Home} />
           <Route path="/login" exact component={LoginPage} />
           <Route path="/signup" exact component={RegisterPage} />

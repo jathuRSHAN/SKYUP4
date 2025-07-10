@@ -6,7 +6,7 @@ header {
 }
 
 nav .left {
-    gap: 20px;
+    gap: 10px;
     margin: 15px 0;
 
 }
@@ -17,18 +17,18 @@ nav img {
 }
 
 nav .right {
-    gap: 50px;
+    gap: 15px;
     /* background-color: azure; */
 
 }
 
 nav .right ul {
     margin-right: 15px;
-    margin-left: 40px;
+    margin-left: 15px;
 }
 
 nav .button {
-    gap: 30px;
+    gap: 15px;
 
 }
 
@@ -39,8 +39,8 @@ nav .right .menubutton {
 
 nav .right ul li a {
     color: var(--font-color);
-    font-weight: 500;
-    font-size: 19px;
+    font-weight: 700;
+    font-size: 16px;
     transition: 0.5s;
 }
 
@@ -63,6 +63,12 @@ nav .right ul li a:hover {
     color: #007bff;
 }
 
+.logo h1 span span {
+    font-size: 32px;
+    font-weight: 800;
+    color: #00bf63;
+}
+
 nav .menubutton {
     display: none;
 }
@@ -72,17 +78,15 @@ nav .menubutton {
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 210px;
+    width: 20px;
     font-family: Arial, sans-serif;
 }
 
 /* Dropdown toggle button */
 .dropdown-toggle {
     width: 100%;
-    padding: 10px 15px;
     font-size: 16px;
     text-align: left;
-    border: 1px solid #ccc;
     background-color: #f9f9f9;
     cursor: pointer;
     display: flex;
@@ -327,7 +331,7 @@ nav .menubutton {
         display: flex;
         position: absolute;
         left: 0;
-        top: 200px;
+        top: 330px;
         padding: 100px 0 0 30px;
         margin-top: 30px;
         margin-left: 30px;

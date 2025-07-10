@@ -8,6 +8,7 @@ import DarkMode from './darkmode/DarkMode';
 import { isAuthenticated } from '../../services/Auth';
 import { logout } from '../../services/Auth';
 import { UserDetailsApi } from "../../services/Api";
+import Head from "./Head/Head";
 
 export default function Header() {
     // const sampleData = ["Apple", "Banana", "Orange", "Grape", "Pineapple", "Mango"];
@@ -64,19 +65,22 @@ export default function Header() {
     return (
 
         <>
+            <Head />
             <header >
+
                 <div className="container" ref={menuRef}>
                     <nav className={clik ? "mobleview d_flexsb" : "d_flexsb container"}>
                         <div className="left d_flex">
                             {clik ? <div className="menubutton"><button onClick={toggleMenu}><i class="fa-solid fa-xmark"></i></button></div> : <div className="menubutton"><button onClick={toggleMenu}><i class="fa-solid fa-bars"></i></button></div>}
-                            <div className="logo"><a href='./'><h1>SKY<span>UP</span></h1></a></div>
+                            <div className="logo"><a href='./'><h1>SKY<span>UP <span>CAMPUS</span></span></h1></a></div>
                             {/* <div className="log"><img src="./logo/logo.png" alt="" /></div> */}
-                            <div className="dropdown"><DropdownMenu /></div>
                         </div>
                         {/* <div className="center"><SearchComponent data={sampleData} /></div> */}
                         <div className="right d_flex">
 
                             <div className="navbar d_flex">
+
+                                <div className="dropdown"><DropdownMenu /></div>
                                 {
                                     menu.map((item, i) => (
                                         <ul>
@@ -86,6 +90,7 @@ export default function Header() {
                                         </ul>
 
                                     ))
+
                                 }
                             </div>
                             <div className="button d_flex">
@@ -94,7 +99,11 @@ export default function Header() {
                                 {!isAuthenticated() ? <button className="signin"><Link to="signup">Signup</Link></button> : null} */}
                                 {!isAuthenticated() ? <button className="lonin"><a href='./login'>Login</a></button> : null}
                                 {!isAuthenticated() ? <button className="signin"><a href='./signup'>Signup</a></button> : null}
-                                {isAuthenticated() ? <h3>{user.name}</h3> : null}
+
+
+                                {/* {isAuthenticated() ? <h3>{user.name}</h3> : null} */}
+
+
                                 {isAuthenticated() ? <button className="logout" onClick={logoutUser} >logout</button> : null}
                                 {/* <button className="lonin"><a href="/login">login</a></button>
                                 <button className="signin"><Link to="./Signup">Signup</Link></button> */}

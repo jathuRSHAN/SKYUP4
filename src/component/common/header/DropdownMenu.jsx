@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
 
 
 const DropdownMenu = () => {
@@ -15,21 +14,36 @@ const DropdownMenu = () => {
         setIsOpen(false);
     };
 
+    const openDropdown = () => {
+        setIsOpen(true);
+    };
+
+    const closeDropdown = () => {
+        setIsOpen(false);
+    };
+
     return (
-        <div className="dropdown">
+        <div
+            className="dropdown"
+            onMouseEnter={openDropdown}
+            onMouseLeave={closeDropdown}
+        >
             <button className="dropdown-toggle" onClick={toggleDropdown}>
                 {selectedOption}
                 <span className="dropdown-arrow">{isOpen ? "▲" : "▼"}</span>
             </button>
+
             {isOpen && (
                 <ul className="dropdown-menu">
-                    {/* <Link to="course"><li onClick={() => handleOptionClick("cources")}>Courses</li></Link>
-                    <Link to=""><li onClick={() => handleOptionClick("platform")}>Platform</li></Link>
-                    <Link to=""><li onClick={() => handleOptionClick("tools")}>Tools</li></Link> */}
-
-                    <a href='./course'><li onClick={() => handleOptionClick("cources")}>Courses</li></a>
-                    <a href='./'><li onClick={() => handleOptionClick("platform")}>Platform</li></a>
-                    <a href='./'><li onClick={() => handleOptionClick("tools")}>Tools</li></a>
+                    <a href="./course">
+                        <li onClick={() => handleOptionClick("Courses")}>Courses</li>
+                    </a>
+                    <a href="./">
+                        <li onClick={() => handleOptionClick("Platform")}>Platform</li>
+                    </a>
+                    <a href="./">
+                        <li onClick={() => handleOptionClick("Tools")}>Tools</li>
+                    </a>
                 </ul>
             )}
         </div>

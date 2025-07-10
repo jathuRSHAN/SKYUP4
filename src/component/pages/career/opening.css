@@ -1,0 +1,164 @@
+.openings-container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Title and Subtitle */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.openings-count {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 250px;
+}
+
+/* Dropdown Container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+/* Dropdown Button */
+.dropdown-btn {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+}
+
+.dropdown-btn:hover {
+    background-color: #f4f4f4;
+}
+
+.dropdown-btn::after {
+    content: "▼";
+    font-size: 12px;
+    color: gray;
+}
+
+/* Placeholder Text */
+.placeholder {
+    color: gray;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+    padding: 5px 0;
+    z-index: 1000;
+}
+
+/* Dropdown Items */
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #333;
+}
+
+.dropdown-item input {
+    margin-right: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: #f4f4f4;
+}
+
+/* Search Button */
+.search-btn {
+    background-color: #4b4b4b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-btn:hover {
+    background-color: #333;
+}
+
+/* Job List */
+.job-list {
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* Job Card */
+.job-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.job-info h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.job-info p {
+    margin: 5px 0;
+    color: gray;
+}
+
+/* Apply Button */
+.apply-btn {
+    background-color: #4b4b4b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-btn:hover {
+    background-color: #333;
+}

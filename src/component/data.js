@@ -1,18 +1,23 @@
+import blog1 from "../asset/blog1.png"
+import blog2 from "../asset/blog2.png"
+import blog3 from "../asset/blog3.png"
+
 export const menu = [{
-    text: "Home",
-    url: "./"
+    text: "About Us",
+    url: "./aboutUs"
 },
-{
-    text: "Team",
-    url: "./team"
-},
+
 {
     text: "Career",
-    url: "./"
+    url: "./career"
+},
+{
+    text: "Blogs",
+    url: "./blog"
 },
 {
     text: "Contact As",
-    url: "./"
+    url: "./contactUs"
 },
 ]
 
@@ -41,8 +46,8 @@ export const project = [
     {
         id: 1,
         icon: <i className='fas fa-cloud icon'></i>,
-        num: "89",
-        title: "HAPPY CLIENTS",
+        num: "500",
+        title: "HAPPY  STUDENTS",
     },
     {
         id: 2,
@@ -174,20 +179,20 @@ export const services = [
     {
         id: 1,
         cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-        title: "Online Courses",
-        desc: "Learn anytime, anywhere with flexible courses that fit your schedule",
+        title: "💻 3. Flexible Online Platform",
+        desc: "\n📱 Anytime, Anywhere Learning: Access your courses 24/7 from desktop or mobile. .\n📼 Recorded Sessions: Rewatch any class anytime with lifetime access to course recordings. .\n🧭 Self-paced + Live Support: Learn at your own pace with the support of live mentorship sessions when needed.",
     },
     {
         id: 2,
         cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-        title: "Earn A Certificates",
-        desc: "Gain recognized certifications to boost your career and skills",
+        title: "🏆 2. Recognized Achievements",
+        desc: "\n🏅 e-Certificates: Receive a recognized certificate after completing each course perfect for LinkedIn, resumes, and freelance profiles.\n 📜 Freelance Career Guidance: Get trained on how to succeed on platforms like Fiverr, Upwork, Freelancer, etc.\n 💼 Portfolio Building: Projects and tasks help you build a solid portfolio to show clients your capabilities.",
     },
     {
         id: 3,
         cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-        title: "Learn with Expert",
-        desc: "Get guidance from industry professionals and experienced instructors",
+        title: "📚 1. Expert Learning Experience",
+        desc: "\n✅ Live & Interactive Classes: Learn in real-time with industry experts, ask questions, and get instant feedback.\n ✅ Expert Instructors: All our courses are taught by professionals with real-world freelancing and business experience.\n ✅ Support in Tamil & Sinhala: Enjoy learning in your native language for better understanding and comfort.",
     },]
 export const testimonal = [
     {
@@ -212,3 +217,22 @@ export const testimonal = [
         cover: "./images/piri.png",
     },
 ]
+
+
+export const BlogList = [
+    {
+        name: "Blog 1",
+        image: blog1,
+        price: 15.99,
+    },
+    {
+        name: "Blog 2",
+        image: blog2,
+        price: 11.99,
+    },
+    {
+        name: "Blog 3",
+        image: blog3,
+        price: 11.99,
+    },
+];

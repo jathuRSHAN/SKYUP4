@@ -8,6 +8,8 @@
 body {
   background-color: var(--bg-color);
   color: var(--font-color);
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 
