@@ -15,7 +15,8 @@ function Blog() {
                             key={key}
                             image={blogItem.image}
                             name={blogItem.name}
-                            price={blogItem.price}
+                            user={blogItem.user}
+                            url={blogItem.url}
                         />
                     );
                 })}

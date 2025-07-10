@@ -7,23 +7,28 @@ const AboutUs = () => {
     return (
         <>
 
-            <div className="banner">
-                <div className="banner-text">
-                    <h1>HOME / AboutUs</h1>
-                    <h2>AboutUs</h2>
+            <div className="banner3">
+                <div className="banner-text3">
+                    <h2>About SkyUp (Pvt) Ltd</h2>
+                    <h3>SkyUp (PVT) LTD is dedicated to empowering the next generation of digital professionals. Our core mission is to provide comprehensive freelancing courses and hands-on training sessions that equip students with the skills needed to thrive in today’s online job market. We believe in creating real opportunities for individuals to build successful and sustainable online careers.
+                        Beyond education, SkyUp also offers a range of professional services in the fields of software development, IT solutions, digital marketing, and content creation. Whether you're a student looking to launch your freelancing journey or a business seeking high-quality digital services, SkyUp is your trusted partner for growth, innovation, and success in the digital era.</h3>
+
                 </div>
             </div>
+
             <div className="about-page">
                 {/* 1. About SkyUp */}
+
                 <section className="section about-skyup">
-                    <h2>About SkyUp (Pvt) Ltd</h2>
+                    <h2>About SkyUp Campus</h2>
                     <div className="aboutas">
                         <div className="aboutimg">
                             <img src={AboutUsImg} alt="" />
                         </div>
+
                         <div className="about-desc">
                             <p>
-                                <strong>SkyUp (Pvt) Ltd</strong> is a leading online education platform based in Sri Lanka,
+                                <strong>SkyUp Campus</strong> is a leading online education platform based in Sri Lanka,
                                 founded with the vision of empowering individuals through freelancing and digital skills.
                                 Our mission is to bridge the gap between traditional education and modern industry demands by
                                 offering high-quality, job-oriented courses that are affordable, flexible, and accessible to all.

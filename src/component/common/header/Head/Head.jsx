@@ -35,7 +35,7 @@ const Head = () => {
                             <i class="fa-solid fa-user"></i>
                         </div>
 
-                        {isAuthenticated() ? <h3>{user.name.split(" ")[0]}</h3> : "mystanskyupconnection"}
+                        {isAuthenticated() ? <h3>{user.name.split(" ")[0]}</h3> : <a href="./signup">mystanskyupconnection</a>}
 
                     </div>
                 </div>

@@ -2,11 +2,12 @@ import React, { useState, useEffect, useRef } from "react";
 import "./opening.css";
 
 const jobOpenings = [
-    { title: "Senior Application Administrator - Software (P1)", location: "Colombo, Sri Lanka", department: "IT Managed Services" },
-    { title: "Senior Network Admin (P1)", location: "Colombo, Sri Lanka", department: "IT Managed Services" },
-    { title: "SOC Manager - Managed Security Services", location: "Colombo, Sri Lanka", department: "Security Operations Centre" },
-    { title: "Consultant - Networking - Managed Services", location: "Colombo, Sri Lanka", department: "IT Managed Services" },
-    { title: "Tech Lead - Java", location: "Colombo, Sri Lanka", department: "IT Managed Services" },
+    { title: "Senior Application Administrator - Software ", location: "Colombo, Sri Lanka", department: "Software Solutions (P1)" },
+    { title: "Digital Marketing Strategist – Growth & SEO ", location: "Colombo, Sri Lanka", department: "Remote | Digital Marketing" },
+    { title: "Content Creation Specialist – Video & Copywriting (P1)", location: "Jaffna, Sri Lanka ", department: "S| Creative Department" },
+    { title: "IT Support Engineer – Systems & Network (P1)", location: "Colombo, Sri Lanka", department: "IT Managed Services" },
+    { title: "Freelance Training Coordinator – Online Programs (P2)", location: "Colombo, Sri Lanka", department: "Remote | Training & Education" },
+    { title: "Social Media Manager – Branding & Engagement (P1)", location: "Colombo, Sri Lanka", department: "Remote | Marketing & Communications" },
 ];
 
 const locations = ["Sri Lanka", "Colombo"];
@@ -46,7 +47,7 @@ const Openings = () => {
     return (
         <div className="openings-container">
             <h1>Our Openings</h1>
-            <p className="openings-count">5 Open Positions</p>
+            <p className="openings-count">6 Open Positions</p>
 
             {/* Search Bar Section */}
             <div className="search-bar">

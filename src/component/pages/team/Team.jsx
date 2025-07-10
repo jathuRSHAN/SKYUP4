@@ -4,13 +4,17 @@ import "./Team.css";
 //import NewsletterSection from "./NewsletterSection"; // Corrected import path
 
 const teamMembers = [
-    { name: "Sankaviyan V", role: "Founder/CEO", img: "/images/member1.png" },
-    { name: "Jathurshan S", role: "CTO", img: "/images/member2.png" },
+    { name: "Sankaviyan V", role: "Founder / CEO / Lecturer", img: "/images/member1.png" },
+    { name: "Jathurshan S", role: "CTO / Lecturer", img: "/images/member2.png" },
     { name: "V sakitha", role: "Human resources manager", img: "/images/member3.png" },
     { name: "Niroj P", role: "junior software engineer", img: "/images/member6.png" },
     { name: "N Thurusthika", role: "Project Manager", img: "/images/member5.png" },
     { name: "Y Dilaxsana ", role: "Marketing Strategist", img: "/images/member7.png" },
-    { name: "Wasana Karunasena", role: "Intern software engineer", img: "/images/member8.png" },
+    { name: "Wasana Karunasena", role: "Intern Software Engineer", img: "/images/member8.png" },
+    { name: "Aynkaran J", role: "Graphic Designer", img: "/images/member9.png" },
+    { name: "Dalaxshan  M", role: "software engineer / lecturer", img: "/images/member10.png" },
+    { name: "Part Time", role: "Lecturers", img: "/images/member11.png" },
+    { name: "Part Time", role: "Employees", img: "/images/member12.png" },
 ];
 
 export default function Team() {

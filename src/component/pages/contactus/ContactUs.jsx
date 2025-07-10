@@ -6,9 +6,9 @@ export default function ContactUs() {
     return (
         <>
             {/* Upper Banner */}
-            <div className="banner">
-                <div className="banner-text">
-                    <h1>HOME / CONTACT US</h1>
+            <div className="banner6">
+                <div className="banner-text6">
+                    {/* <h1>HOME / CONTACT US</h1> */}
                     <h2>Contact Us</h2>
                 </div>
             </div>
@@ -37,9 +37,9 @@ export default function ContactUs() {
 
                     <div className="contact-info">
                         <p style={{ marginBottom: "5px" }}>
-                            <strong>ADDRESS:</strong>198 West 21th Street,<br />Suite 721,<br />New York, NY 10016</p>
-                        <p><strong>EMAIL:</strong> info@yoursite.com</p>
-                        <p><strong>PHONE:</strong> +1235 2355 98</p>
+                            <strong>ADDRESS:</strong>No- 331 <br />Trincomalee,<br /> Srilanka,</p>
+                        <p><strong>EMAIL:</strong>skyup.official01@gmail.com</p>
+                        <p><strong>PHONE:</strong>+94 76 000 7822</p>
                     </div>
 
                     <form>
@@ -53,13 +53,13 @@ export default function ContactUs() {
                     </form>
 
                     {/* Social Links */}
-                    <div className="contact-social">
+                    {/* <div className="contact-social">
                         <p>Follow us here</p>
                         <a href="#">FACEBOOK</a>
                         <a href="#">TWITTER</a>
                         <a href="#">INSTAGRAM</a>
                         <a href="#">DRIBBBLE</a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

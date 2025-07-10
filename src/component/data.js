@@ -223,16 +223,19 @@ export const BlogList = [
     {
         name: "How to learn Freelancer with skyup",
         image: blog1,
-        price: "Admin",
+        user: "Admin",
+        url: "https://www.linkedin.com/pulse/beginners-guide-becoming-freelancer-sri-lanka-skyuplk-skyup25-ripac/?trackingId=hyiggovSQeOzY3Vd11gSXA%3D%3D",
     },
     {
         name: "Top Skills to Learn in 2025 to Thrive as a Freelancer",
         image: blog2,
-        price: "Admin",
+        user: "Admin",
+        url: "https://www.linkedin.com/pulse/top-skills-learn-2025-thrive-freelancer-skyup25-n5bkc/?trackingId=HDQh6ymySzChwGCppE0q3w%3D%3D",
     },
     {
         name: "Why Every Freelancer Needs to Learn WordPress And How SkyUp.lk Can Help",
         image: blog3,
-        price: "Admin",
+        user: "Admin",
+        url: "https://www.linkedin.com/pulse/why-every-freelancer-needs-learn-wordpress-how-skyuplk-can-help-lwt7c/?trackingId=hCe4wxRHQSWoQol9uKdooA%3D%3D",
     },
 ];

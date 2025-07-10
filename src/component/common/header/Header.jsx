@@ -7,9 +7,8 @@ import { useNavigate, } from "react-router-dom"
 import DarkMode from './darkmode/DarkMode';
 import { isAuthenticated } from '../../services/Auth';
 import { logout } from '../../services/Auth';
-import { UserDetailsApi } from "../../services/Api";
+//import { UserDetailsApi } from "../../services/Api";
 import Head from "./Head/Head";
-
 export default function Header() {
     // const sampleData = ["Apple", "Banana", "Orange", "Grape", "Pineapple", "Mango"];
     const [clik, setclik] = useState(false);
@@ -40,23 +39,21 @@ export default function Header() {
         logout();
         navigate('/login')
     }
+    // const [user, setUser] = useState({ name: "", email: "", localId: "" })
+    // useEffect(() => {
+    //     if (isAuthenticated()) {
+    //         UserDetailsApi().then((response) => {
 
-    const [user, setUser] = useState({ name: "", email: "", localId: "" })
-    useEffect(() => {
-
-        if (isAuthenticated()) {
-            UserDetailsApi().then((response) => {
-
-                setUser({
-                    name: response.data.users[0].displayName,
-                    email: response.data.users[0].email,
-                    localId: response.data.users[0].localId,
-                })
-            })
-        }
+    //             setUser({
+    //                 name: response.data.users[0].displayName,
+    //                 email: response.data.users[0].email,
+    //                 localId: response.data.users[0].localId,
+    //             })
+    //         })
+    //     }
 
 
-    }, []);
+    // }, []);
 
 
 
