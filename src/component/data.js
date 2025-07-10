@@ -221,18 +221,18 @@ export const testimonal = [
 
 export const BlogList = [
     {
-        name: "Blog 1",
+        name: "How to learn Freelancer with skyup",
         image: blog1,
-        price: 15.99,
+        price: "Admin",
     },
     {
-        name: "Blog 2",
+        name: "Top Skills to Learn in 2025 to Thrive as a Freelancer",
         image: blog2,
-        price: 11.99,
+        price: "Admin",
     },
     {
-        name: "Blog 3",
+        name: "Why Every Freelancer Needs to Learn WordPress And How SkyUp.lk Can Help",
         image: blog3,
-        price: 11.99,
+        price: "Admin",
     },
 ];
